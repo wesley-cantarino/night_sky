@@ -35,6 +35,10 @@ function setup() {
     cloud.push(new clouds(i));
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function draw() {
   ground();
 
